@@ -1,11 +1,9 @@
 .data
-    msg: .asciz "hello"
+    msggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg: .asciz "hello\bo\n"
 .section .text
 .global _start
 
 _start:
+    MOV X0, =msggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
+    MOV X1, #8
     SVC #0
-    NOP
-    NOP
-    NOP
-    NOP
