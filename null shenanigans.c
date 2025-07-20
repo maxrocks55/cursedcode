@@ -1,5 +1,7 @@
 #define nullptr NULL
 #define NULL 0x1000
+#define nullptr_t 0xDEADBEEF
+#define std NULL
 #include <stdio.h>
 
 std::nullptr_t main() {
